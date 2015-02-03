@@ -2,8 +2,8 @@
 Contributors: TyB
 Tags: social count, social, shares, facebook, twitter, linkedin, google, pinterest, network, api, social networks
 Requires at least: 3.0.1
-Tested up to: 4.0.1
-Stable tag: 4.3
+Tested up to: 4.1.1
+Stable tag: 4.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,9 +33,10 @@ If you are just displaying the share count for one post at a time, you may use t
 
 
 == Changelog ==
-
+= 1.1 =
+* Bug fixes
 = 1.0 =
 * First release
 
 == Upgrade Notice ==
-
+Removed plugin activation function causing errors.
