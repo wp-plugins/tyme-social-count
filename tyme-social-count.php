@@ -32,16 +32,6 @@ if(!defined('TYME_DIR'))
 require_once( TYME_DIR . 'tyme.core.php');
 
 
-/**
- *	Run on plugin activation
- */
-function tsc_activate() {
-	/* Function to run on plugin activation */
-	continue;
-}
-register_activation_hook( __FILE__, 'tsc_activate' );
-
-
 
 /**
  *	Retrieve Share Count Via AJAX
