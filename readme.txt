@@ -35,7 +35,7 @@ This plugin also refreshes the Facebook Open Graph scraper each time a post is p
 
 == Screenshots ==
 1. Tyme Social Count returns a simple number for you to style and customize as you see fit.
-2. Easily customizable and styled to fit your specific theme.
+2. Easily customizable and styled to fit your specific theme and/or design.
 
 == Changelog ==
 = 1.2 =
