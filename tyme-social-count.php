@@ -5,7 +5,7 @@
  *	Description: Displays the total number of social shares from Facebook, Twitter, Pinterest, Google+, and LinkedIn
  *	Author: Tyler Bailey
  *	Author URI: http://tylerb.me
- *	Version: 1.0
+ *	Version: 1.2
  */
 
 
