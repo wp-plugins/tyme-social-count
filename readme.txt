@@ -1,9 +1,9 @@
 === Tyme Social Count ===
 Contributors: TyB
-Tags: social count, social, shares, facebook, twitter, linkedin, google, pinterest, network, api, social networks
+Tags: social count, social, shares, facebook, twitter, linkedin, google, pinterest, network, api, social networks, open graph, fb, og
 Requires at least: 3.0.1
 Tested up to: 4.1.1
-Stable tag: 4.4
+Stable tag: 4.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,18 +25,29 @@ jQuery.get(ajaxurl, { action: "get_total_shares", url: "<?php the_permalink(); ?
 
 If you are just displaying the share count for one post at a time, you may use the plugin shortcode to return the number. That shortcode is `[tyme_share_count]`
 
+This plugin also refreshes the Facebook Open Graph scraper each time a post is published. This ensures the proper images and content are being served to Facebook when shared.
+
 == Installation ==
 
 1. Upload the 'tyme-social-count' directory to your '/plugins/'
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. You can use the plugin by using the shortcode `[tyme_share_count]` or by following the AJAX method mentioned. AJAX is the preferred route to prevent reducing page load times
+3. You can use the plugin by using the shortcode `[tyme_share_count]` or by following the AJAX method mentioned in the README. AJAX is the preferred route to prevent slow page load times
 
+== Screenshots ==
+1. Tyme Social Count returns a simple number for you to style and customize as you see fit.
+2. Tyme Social Count is easily styled and integrated into any theme and design.
 
 == Changelog ==
+= 1.2 =
+* Added cURL request to update Facebook Open Graph scraper on post publish
 = 1.1 =
 * Bug fixes
 = 1.0 =
 * First release
 
 == Upgrade Notice ==
-Removed plugin activation function causing errors.
+= 1.2 =
+Added cURL request to update Facebook Open Graph scraper
+
+= 1.1 =
+Removed `tyme_activation()` function
